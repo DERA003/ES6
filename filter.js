@@ -1,0 +1,319 @@
+const students = [{
+    "student_id": 1,
+    "grade": 99.63,
+    "exam_date": "7/31/2022",
+    "subject": "Science"
+  }, {
+    "student_id": 2,
+    "grade": 88.49,
+    "exam_date": "2/3/2022",
+    "subject": "History"
+  }, {
+    "student_id": 3,
+    "grade": 59.31,
+    "exam_date": "3/21/2022",
+    "subject": "Math"
+  }, {
+    "student_id": 4,
+    "grade": 15.61,
+    "exam_date": "4/14/2022",
+    "subject": "English"
+  }, {
+    "student_id": 5,
+    "grade": 56.59,
+    "exam_date": "10/12/2022",
+    "subject": "Science"
+  }, {
+    "student_id": 6,
+    "grade": 81.9,
+    "exam_date": "11/13/2022",
+    "subject": "Math"
+  }, {
+    "student_id": 7,
+    "grade": 46.2,
+    "exam_date": "12/19/2022",
+    "subject": "Math"
+  }, {
+    "student_id": 8,
+    "grade": 86.81,
+    "exam_date": "6/17/2022",
+    "subject": "Science"
+  }, {
+    "student_id": 9,
+    "grade": 75.5,
+    "exam_date": "5/31/2022",
+    "subject": "History"
+  }, {
+    "student_id": 10,
+    "grade": 69.76,
+    "exam_date": "10/22/2022",
+    "subject": "Math"
+  }, {
+    "student_id": 11,
+    "grade": 51.59,
+    "exam_date": "10/1/2022",
+    "subject": "History"
+  }, {
+    "student_id": 12,
+    "grade": 90.18,
+    "exam_date": "4/17/2022",
+    "subject": "Math"
+  }, {
+    "student_id": 13,
+    "grade": 79.85,
+    "exam_date": "1/17/2022",
+    "subject": "Math"
+  }, {
+    "student_id": 14,
+    "grade": 75.04,
+    "exam_date": "12/26/2022",
+    "subject": "History"
+  }, {
+    "student_id": 15,
+    "grade": 45.54,
+    "exam_date": "12/26/2022",
+    "subject": "English"
+  }, {
+    "student_id": 16,
+    "grade": 47.97,
+    "exam_date": "6/1/2022",
+    "subject": "English"
+  }, {
+    "student_id": 17,
+    "grade": 74.77,
+    "exam_date": "1/16/2022",
+    "subject": "English"
+  }, {
+    "student_id": 18,
+    "grade": 61.11,
+    "exam_date": "10/16/2022",
+    "subject": "English"
+  }, {
+    "student_id": 19,
+    "grade": 34.0,
+    "exam_date": "3/2/2022",
+    "subject": "Science"
+  }, {
+    "student_id": 20,
+    "grade": 82.84,
+    "exam_date": "12/18/2022",
+    "subject": "Math"
+  }]
+
+  const studentGrade = students.filter((student =>  student.subject == "English"))
+
+//   console.log(studentGrade);
+
+const people = [{
+    "first_name": "Guglielmo",
+    "age": 80,
+    "country": "Indonesia",
+    "favorite_color": "red",
+    "gender": "Male"
+  }, {
+    "first_name": "Kelsey",
+    "age": 41,
+    "country": "Myanmar",
+    "favorite_color": "red",
+    "gender": "Male"
+  }, {
+    "first_name": "Boigie",
+    "age": 33,
+    "country": "Poland",
+    "favorite_color": "red",
+    "gender": "Male"
+  }, {
+    "first_name": "Thayne",
+    "age": 54,
+    "country": "Sweden",
+    "favorite_color": "green",
+    "gender": "Male"
+  }, {
+    "first_name": "Howie",
+    "age": 52,
+    "country": "Sweden",
+    "favorite_color": "blue",
+    "gender": "Male"
+  }, {
+    "first_name": "Dallas",
+    "age": 69,
+    "country": "Philippines",
+    "favorite_color": "red",
+    "gender": "Female"
+  }, {
+    "first_name": "Fiorenze",
+    "age": 62,
+    "country": "China",
+    "favorite_color": "green",
+    "gender": "Female"
+  }, {
+    "first_name": "Raynor",
+    "age": 65,
+    "country": "Russia",
+    "favorite_color": "blue",
+    "gender": "Male"
+  }, {
+    "first_name": "Pryce",
+    "age": 22,
+    "country": "Japan",
+    "favorite_color": "blue",
+    "gender": "Male"
+  }, {
+    "first_name": "Aile",
+    "age": 68,
+    "country": "Russia",
+    "favorite_color": "red",
+    "gender": "Female"
+  }, {
+    "first_name": "Kacie",
+    "age": 36,
+    "country": "China",
+    "favorite_color": "blue",
+    "gender": "Female"
+  }, {
+    "first_name": "Allys",
+    "age": 21,
+    "country": "China",
+    "favorite_color": "blue",
+    "gender": "Female"
+  }, {
+    "first_name": "Tirrell",
+    "age": 23,
+    "country": "Japan",
+    "favorite_color": "blue",
+    "gender": "Male"
+  }, {
+    "first_name": "Stanwood",
+    "age": 79,
+    "country": "Indonesia",
+    "favorite_color": "blue",
+    "gender": "Male"
+  }, {
+    "first_name": "Renie",
+    "age": 69,
+    "country": "Philippines",
+    "favorite_color": "red",
+    "gender": "Female"
+  }, {
+    "first_name": "Neil",
+    "age": 49,
+    "country": "Brazil",
+    "favorite_color": "red",
+    "gender": "Male"
+  }, {
+    "first_name": "Jacklyn",
+    "age": 73,
+    "country": "North Korea",
+    "favorite_color": "blue",
+    "gender": "Female"
+  }, {
+    "first_name": "Erastus",
+    "age": 66,
+    "country": "Indonesia",
+    "favorite_color": "green",
+    "gender": "Male"
+  }, {
+    "first_name": "Donavon",
+    "age": 34,
+    "country": "China",
+    "favorite_color": "red",
+    "gender": "Male"
+  }, {
+    "first_name": "Joshuah",
+    "age": 74,
+    "country": "Portugal",
+    "favorite_color": "green",
+    "gender": "Male"
+  }, {
+    "first_name": "Lula",
+    "age": 65,
+    "country": "Argentina",
+    "favorite_color": "green",
+    "gender": "Female"
+  }, {
+    "first_name": "Wilmar",
+    "age": 19,
+    "country": "South Africa",
+    "favorite_color": "red",
+    "gender": "Male"
+  }, {
+    "first_name": "Yancy",
+    "age": 70,
+    "country": "China",
+    "favorite_color": "red",
+    "gender": "Male"
+  }, {
+    "first_name": "Bert",
+    "age": 74,
+    "country": "United States",
+    "favorite_color": "red",
+    "gender": "Male"
+  }, {
+    "first_name": "Marlene",
+    "age": 47,
+    "country": "Brazil",
+    "favorite_color": "red",
+    "gender": "Female"
+  }, {
+    "first_name": "Culley",
+    "age": 38,
+    "country": "Poland",
+    "favorite_color": "red",
+    "gender": "Male"
+  }, {
+    "first_name": "Gwyn",
+    "age": 30,
+    "country": "Nicaragua",
+    "favorite_color": "red",
+    "gender": "Genderqueer"
+  }, {
+    "first_name": "Florian",
+    "age": 66,
+    "country": "China",
+    "favorite_color": "green",
+    "gender": "Genderqueer"
+  }, {
+    "first_name": "Libby",
+    "age": 82,
+    "country": "Brazil",
+    "favorite_color": "blue",
+    "gender": "Female"
+  }, {
+    "first_name": "Emiline",
+    "age": 82,
+    "country": "South Africa",
+    "favorite_color": "red",
+    "gender": "Female"
+  },
+  {
+    "first_name": "Libby",
+    "age": 82,
+    "country": "Brazil",
+    "favorite_color": "blue",
+    "gender": "Female"
+  },
+  {
+    "first_name": "Bert",
+    "age": 74,
+    "country": "United States",
+    "favorite_color": "red",
+    "gender": "Male"
+  }]
+// const duplicate = people.filter((person,index) => person.indexOf(person.first_name) === index)
+//  console.log(duplicate);
+//   const dupPeople = people.filter((person,val,index) => person.indexOf(val) === index
+//   )
+//   console.log(dupPeople);
+
+  const Gender = people.filter((person => person.gender == "Female")).
+  filter((person => person.favorite_color == "red")).filter((person => person.country == "South Africa"))
+//   console.log(Gender);
+
+  const numbers = [1,3,4,2,,5,6,7,12,34,54,20,3,4,5,6,7,2]
+  let oddNumber = numbers.filter((number => number % 2 !== 0))
+//   console.log(oddNumber);
+
+ const dupNumbers = numbers.filter((value,index,arr) => {
+    return arr.indexOf(value) === index})
+//   console.log(dupNumbers);
+

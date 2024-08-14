@@ -25,3 +25,7 @@ console.log(`${gender} ${id}`);
 const [Country, state, localgovt] = ["Nigeria","RiversState","Onelga"]
 
 console.log(state);
+
+// const arr = ["hello",1,"Hello"]
+// arr.sort()
+// console.log(arr)
